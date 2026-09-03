@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device Tree (sky) -->
+  <project path="device/xiaomi/sky" name="GXC988/device_xiaomi_sky" remote="github" revision="15" />
+
+  <!-- Vendor Tree (sky) -->
+  <project path="vendor/xiaomi/sky" name="GXC988/vendor_xiaomi_sky" remote="github" revision="15" />
+
+  <!-- Kernel Source (sky) -->
+  <project path="kernel/xiaomi/sky" name="GXC988/kernel_xiaomi_sky" remote="github" revision="15" />
+
+  <!-- Hardware Xiaomi (Lineage 22.0 Base for Android 15) -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.0" />
+</manifest>
