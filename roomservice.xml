@@ -9,6 +9,9 @@
   <!-- Kernel Prebuilt (sky) -->
   <project path="device/xiaomi/sky-kernel" name="crdroidandroid/android_kernel_xiaomi_sky" remote="github" revision="15.0" />
 
+  <!-- Hardware Xiaomi -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.1" />
+
   <!-- Hardware Dolby -->
   <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" remote="github" revision="15.0" />
 </manifest>
