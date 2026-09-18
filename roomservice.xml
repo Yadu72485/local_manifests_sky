@@ -9,3 +9,4 @@
     <!-- Kernel Tree -->
     <project path="kernel/xiaomi/sky" name="Yadu72485/android_kernel_xiaomi_sky" remote="github" revision="15.0" />
 </manifest>
+<project path="hardware/dolby" name="Yadu72485/android_hardware_dolby" remote="github" />
