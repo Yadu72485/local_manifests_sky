@@ -10,5 +10,5 @@
     <project path="kernel/xiaomi/sky" name="Yadu72485/android_kernel_xiaomi_sky" remote="github" revision="15.0" />
 
     <!-- Dolby Hardware -->
-    <project path="hardware/dolby" name="Yadu72485/android_hardware_dolby" remote="github" revision="15.0" />
+    <project path="hardware/dolby" name="Yadu72485/android_hardware_dolby" remote="github" revision="16" />
 </manifest>
