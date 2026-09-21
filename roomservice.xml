@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-    <!-- crDroid Device Tree -->
+    <!-- Device Tree -->
     <project
         name="Yadu72485/android_device_xiaomi_sky"
         path="device/xiaomi/sky"
         remote="github"
         revision="15.0" />
 
-    <!-- crDroid Vendor Tree -->
+    <!-- Vendor Tree -->
     <project
         name="Yadu72485/android_vendor_xiaomi_sky"
         path="vendor/xiaomi/sky"
         remote="github"
         revision="15.0" />
 
-    <!-- crDroid Kernel Tree (Smart Fix: Overwriting prebuilt kernel path) -->
+    <!-- Kernel Tree -->
+    <!-- IMPORTANT: BoardConfig.mk uses device/xiaomi/sky-kernel -->
     <project
         name="Yadu72485/android_kernel_xiaomi_sky"
         path="device/xiaomi/sky-kernel"
@@ -28,5 +28,4 @@
         path="hardware/dolby"
         remote="github"
         revision="16" />
-
 </manifest>
