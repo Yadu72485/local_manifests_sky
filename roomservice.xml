@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Device Tree -->
+    <!-- Device tree -->
     <project
         name="Yadu72485/android_device_xiaomi_sky"
         path="device/xiaomi/sky"
         remote="github"
         revision="15.0" />
 
-    <!-- Vendor Tree -->
+    <!-- Vendor tree -->
     <project
         name="Yadu72485/android_vendor_xiaomi_sky"
         path="vendor/xiaomi/sky"
         remote="github"
         revision="15.0" />
 
-    <!-- Kernel Tree -->
-    <!-- IMPORTANT: BoardConfig.mk uses device/xiaomi/sky-kernel -->
+    <!-- Kernel tree.
+         BoardConfig.mk uses device/xiaomi/sky-kernel -->
     <project
         name="Yadu72485/android_kernel_xiaomi_sky"
         path="device/xiaomi/sky-kernel"
         remote="github"
         revision="15.0" />
 
-    <!-- Dolby Hardware -->
+    <!-- Dolby hardware -->
     <project
         name="Yadu72485/android_hardware_dolby"
         path="hardware/dolby"
