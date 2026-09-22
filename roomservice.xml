@@ -14,7 +14,7 @@
 
     <project
         name="Yadu72485/android_kernel_xiaomi_sky"
-        path="kernel/xiaomi/sky"
+        path="device/xiaomi/sky-kernel"
         remote="github"
         revision="15.0" />
 
